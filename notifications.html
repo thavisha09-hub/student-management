@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-page">
+
+<div class="layout">
+
+<aside class="sidebar">
+
+    <div class="brand">
+        <div class="brand-logo">🎓</div>
+        <div>
+            <h2>EduPEC</h2>
+            <small>Student Portal</small>
+        </div>
+    </div>
+
+    <nav>
+        <a href="dashboard.html">🏠 Dashboard</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="courses.html">📚 Courses</a>
+        <a href="attendance.html">📊 Attendance</a>
+        <a href="marks.html">📝 Marks</a>
+        <a href="fees.html">💳 Fees</a>
+        <a href="timetable.html">🗓️ Timetable</a>
+        <a href="notifications.html" class="active">🔔 Notifications</a>
+    </nav>
+
+    <button class="logout" onclick="logout()">🚪 Logout</button>
+
+</aside>
+
+<main class="main">
+
+<h1>🔔 Notifications</h1>
+
+<br>
+
+<section class="cards">
+
+    <div class="card">
+        <div class="card-icon">📢</div>
+        <h3>Exam Notification</h3>
+        <p>Internal examination schedule has been updated.</p>
+        <strong>Today</strong>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">💰</div>
+        <h3>Fee Reminder</h3>
+        <p>Your examination fee payment is pending.</p>
+        <strong>Yesterday</strong>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">📚</div>
+        <h3>New Study Material</h3>
+        <p>New Java programming material is available.</p>
+        <strong>2 days ago</strong>
+    </div>
+
+</section>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

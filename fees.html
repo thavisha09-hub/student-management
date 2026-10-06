@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-page">
+
+<div class="layout">
+
+<aside class="sidebar">
+
+    <div class="brand">
+        <div class="brand-logo">🎓</div>
+        <div>
+            <h2>EduPEC</h2>
+            <small>Student Portal</small>
+        </div>
+    </div>
+
+    <nav>
+        <a href="dashboard.html">🏠 Dashboard</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="courses.html">📚 Courses</a>
+        <a href="attendance.html">📊 Attendance</a>
+        <a href="marks.html">📝 Marks</a>
+        <a href="fees.html" class="active">💳 Fees</a>
+        <a href="timetable.html">🗓️ Timetable</a>
+        <a href="notifications.html">🔔 Notifications</a>
+    </nav>
+
+    <button class="logout" onclick="logout()">🚪 Logout</button>
+
+</aside>
+
+<main class="main">
+
+<h1>💳 Fee Details</h1>
+
+<br>
+
+<section class="stats">
+
+    <div class="stat">
+        <div class="stat-icon green">✅</div>
+        <div>
+            <small>Paid</small>
+            <h2>₹68,000</h2>
+        </div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-icon orange">⚠️</div>
+        <div>
+            <small>Pending</small>
+            <h2>₹12,000</h2>
+        </div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-icon purple">💰</div>
+        <div>
+            <small>Total</small>
+            <h2>₹80,000</h2>
+        </div>
+    </div>
+
+</section>
+
+<br>
+
+<div class="page-box">
+
+    <h2>Fee Status</h2>
+
+    <div class="info-row">
+        <b>Tuition Fee</b>
+        <span>Paid</span>
+    </div>
+
+    <div class="info-row">
+        <b>Library Fee</b>
+        <span>Paid</span>
+    </div>
+
+    <div class="info-row">
+        <b>Exam Fee</b>
+        <span>Pending</span>
+    </div>
+
+    <div class="info-row">
+        <b>Transport Fee</b>
+        <span>Paid</span>
+    </div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

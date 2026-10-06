@@ -1,0 +1,139 @@
+{
+  "student": {
+    "name": "Thavisha",
+    "registerNumber": "24CSE001",
+    "department": "CSE",
+    "year": "2rd Year",
+    "email": "thavisha09@gmail.com",
+    "phone": "9876543210"
+  },
+
+  "dashboard": {
+    "courses": 6,
+    "attendance": "87%",
+    "cgpa": "8.6",
+    "feesDue": "₹12,000"
+  },
+
+  "courses": [
+    {
+      "name": "Web Development",
+      "code": "WD301",
+      "credits": 4
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "AI302",
+      "credits": 4
+    },
+    {
+      "name": "Java Programming",
+      "code": "JP303",
+      "credits": 3
+    },
+    {
+      "name": "Database Management",
+      "code": "DB304",
+      "credits": 3
+    }
+  ],
+
+  "attendance": [
+    {
+      "subject": "Web Development",
+      "totalClasses": 50,
+      "percentage": "92%"
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "totalClasses": 48,
+      "percentage": "88%"
+    },
+    {
+      "subject": "Java Programming",
+      "totalClasses": 46,
+      "percentage": "84%"
+    },
+    {
+      "subject": "Database Management",
+      "totalClasses": 45,
+      "percentage": "86%"
+    }
+  ],
+
+  "marks": [
+    {
+      "subject": "Web Development",
+      "internal": "45/50",
+      "grade": "A+"
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "internal": "42/50",
+      "grade": "A"
+    },
+    {
+      "subject": "Java Programming",
+      "internal": "44/50",
+      "grade": "A+"
+    },
+    {
+      "subject": "Database Management",
+      "internal": "40/50",
+      "grade": "A"
+    }
+  ],
+
+  "fees": {
+    "total": "₹80,000",
+    "paid": "₹68,000",
+    "pending": "₹12,000",
+    "status": "Partially Paid"
+  },
+
+  "timetable": {
+    "Monday": [
+      "09:00 AM - Java",
+      "11:00 AM - AI",
+      "02:00 PM - Web Development"
+    ],
+    "Tuesday": [
+      "09:00 AM - Database",
+      "11:00 AM - Java",
+      "02:00 PM - AI"
+    ],
+    "Wednesday": [
+      "09:00 AM - Web Development",
+      "11:00 AM - Database",
+      "02:00 PM - Java Lab"
+    ],
+    "Thursday": [
+      "09:00 AM - AI",
+      "11:00 AM - Java",
+      "02:00 PM - Web Development"
+    ],
+    "Friday": [
+      "09:00 AM - Database",
+      "11:00 AM - Web Development",
+      "02:00 PM - Project Lab"
+    ]
+  },
+
+  "notifications": [
+    {
+      "title": "Exam Notification",
+      "message": "Internal examination schedule has been updated.",
+      "date": "Today"
+    },
+    {
+      "title": "Fee Reminder",
+      "message": "Your examination fee payment is pending.",
+      "date": "Yesterday"
+    },
+    {
+      "title": "New Study Material",
+      "message": "New Java programming material is available.",
+      "date": "2 days ago"
+    }
+  ]
+}
